@@ -37,8 +37,7 @@ function App() {
           onClick={() => {
             if (inde > 1) {
               setInde(inde - 1)
-
-            }
+            };
 
           }}>Prev</button>
            <h3 className=' text-4xl rounded text-center'>page {inde}</h3>
